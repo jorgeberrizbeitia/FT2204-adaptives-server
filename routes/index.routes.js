@@ -13,4 +13,7 @@ router.use("/auth", authRoutes)
 const profileRoutes = require("./profile.routes.js")
 router.use("/profile", profileRoutes)
 
+const uploaderRoutes = require("./uploader.routes")
+router.use("/uploader", uploaderRoutes)
+
 module.exports = router;
