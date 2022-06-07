@@ -16,4 +16,7 @@ router.use("/profile", profileRoutes)
 const uploaderRoutes = require("./uploader.routes")
 router.use("/uploader", uploaderRoutes)
 
+const productRoutes = require("./product.routes.js")
+router.use("/product", productRoutes)
+
 module.exports = router;
